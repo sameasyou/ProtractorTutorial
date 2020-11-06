@@ -29,6 +29,9 @@ function Add(a,b)
         Add(10,11);
 // Add(10,11);
         Add(12,13);
+        Add(12,14);
+        Add(13,14);
+        Add(13,15);
 
         element.all(by.repeater("result in memory")).count().then(function (countofresults)
         {
